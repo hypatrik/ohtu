@@ -12,7 +12,7 @@ def main():
 
         players.append(player)
 
-    for player in players:
+    for player in filter(lambda p: p.nationality == "FIN", players):
         print(player)
 
 if __name__ == "__main__":

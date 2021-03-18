@@ -18,9 +18,10 @@ class Player:
         self.games = games
     
     def __str__(self):
-        return "{} team {} goals {} assists {}".format(
+        return "{:25} {:3} {:2} + {:2} = {:2}".format(
             self.name,
             self.team,
             self.goals,
             self.assists,
+            self.goals + self.assists,
         )
