@@ -1,18 +1,14 @@
-import requests
 from player import Player
+from playerreader import PlayerReader
+from playerstats import PlayerStats
 
 def main():
     url = "https://nhlstatisticsforohtu.herokuapp.com/players"
-    response = requests.get(url).json()
-    players = []
+    reader = PlayerReader(url)
+    stats = PlayerStats(reader)
+    players = stats.top_scorers_by_nationality("FIN")
 
-    for player_dict in response:
-        # oletetaan että tässä data on aina samassa muodossa.
-        player = Player(**player_dict)
-
-        players.append(player)
-
-    for player in filter(lambda p: p.nationality == "FIN", players):
+    for player in players:
         print(player)
 
 if __name__ == "__main__":
