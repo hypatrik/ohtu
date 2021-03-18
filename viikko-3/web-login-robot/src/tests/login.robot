@@ -26,6 +26,12 @@ Login Should Fail With Message
     Login Page Should Be Open
     Page Should Contain  ${message}
 
+Login With Nonexistent Username
+    Set Username  nalle
+    Set Password  kalle456
+    Submit Credentials
+    Login Should Fail With Message  Invalid username or password
+
 Submit Credentials
     Click Button  Login
 
@@ -41,3 +47,4 @@ Create User And Go To Login Page
     Create User  kalle  kalle123
     Go To Login Page
     Login Page Should Be Open
+    
