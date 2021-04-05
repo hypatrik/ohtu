@@ -1,5 +1,5 @@
 # OHTU kevät 2021 tehtävät
-Ohjelmistotuotannon laskarit
+Ohjelmistotuotannon laskarit.
 
 Author: Patrik Keinonen
 
