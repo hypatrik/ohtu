@@ -39,7 +39,7 @@ class HasAtLeast:
 
 
 class All:
-    def matches(self, _player):
+    def matches(self, _player=None):
         return True
 
 class Not:
