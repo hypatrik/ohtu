@@ -1,0 +1,3 @@
+Retrospektiivitekniikat
+
+Retrospektiivi on yleensä spritin lopussa pidettävä palaveri, jossa tarkastellaan jälkikäteen miten asiat menivät. Erilaisia tapoja pitää retrospektiivi on useita jotka vaihtelevat kokonaiskeston, työkalujen ja priorisoitujen aihealueiden välillä. Yleistäen voidaan sanoa, että retrossa tarkoitus on aktivoida jokainen kehitystiimin jäsen miettimään kuluneen spritin kulkua ja jakamaan ajatuksena. Tarkoituksena on tunnistaa ne asiat jotka ovat toimineet ja eivät ole toimineet sekä luoda action pointteja, joiden toteutumista seurataan. Retrospektiivi tekniikka kannataa valita sen mukaan, mihin halutaan pureutua.
