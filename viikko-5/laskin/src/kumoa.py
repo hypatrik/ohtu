@@ -4,4 +4,4 @@ class Kumoa:
         self.sovelluslogiikka = sovelluslogiikka
 
     def suorita(self):
-        pass
+        self.sovelluslogiikka.kumoa()
